@@ -1,0 +1,13 @@
+{
+  "name": "docker-sandbox",
+  "version": "1.0.0",
+  "description": "OpenClaw skill",
+  "scripts": {
+    "lint": "echo \"No lint configured — add eslint or prettier\"",
+    "test": "echo \"No tests configured\"",
+    "build": "echo \"No build step — skill is documentation-based\"",
+    "validate": "node -e \"const s = require(\x27./skill.json\x27); console.log(JSON.stringify(s, null, 2))\""
+  },
+  "keywords": ["openclaw", "skill"],
+  "license": "MIT"
+}
